@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-photo/pink-gradient-background-soothing-blend-soft-vibrant-pink-hues-generative-ai_208978-868.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+.shape{
+    margin-top: 5cm;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#title{
+    margin-top: -200px;
+}
+#para1{
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.rectangle{
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.square{
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: 10px;
+  }
+  
+  
+  #number {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  #button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+    color: rgb(0, 0, 0);
+    border: white solid 1px;
+
+  }
+  #color{
+    margin-left: 35px;
+    width: 70px;
+    height: 30px;
+  }
+  #shapelabel{
+    text-align: center;
+  }
+  #number{
+    margin-left: 70px;
+  }
